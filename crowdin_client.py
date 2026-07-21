@@ -3,11 +3,8 @@ from __future__ import annotations
 import os
 from pathlib import Path
 from typing import Any, Iterable
-from time import sleep
 import dotenv
 from crowdin_api import CrowdinClient
-import requests
-import zipfile
 dotenv.load_dotenv()
 
 

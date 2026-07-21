@@ -1,8 +1,8 @@
 {
-  "welcome": "Welcome",
-  "login": "Log in",
-  "logout": "Log out",
-  "settings": "Settings",
-  "save": "Save changes",
-  "Hello {name}": "Hello {name}"
+  "welcome": "Bienvenida",
+  "login": "Iniciar sesión",
+  "logout": "Cerrar sesión",
+  "settings": "Ajustes",
+  "save": "Guardar cambios",
+  "Hello {name}": "Hola {name}"
 }

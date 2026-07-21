@@ -63,6 +63,9 @@ The GitHub Actions pipeline runs on every push and pull request:
 ```
 ├── .github/workflows/    # CI/CD pipeline
 ├── demo_assets/          # Sample source file for upload demo
+├── public/
+│   └── content/
+│       └── en/           # Source language files
 ├── scripts/              # CI health check script
 ├── crowdin_client.py     # Crowdin API wrapper
 ├── demo.py               # End-to-end workflow demo

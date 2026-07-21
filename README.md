@@ -1,4 +1,4 @@
-# Crowdin API Client
+# Crowdin-Localization-Pipeline
 
 A Python wrapper around the [Crowdin Python SDK](https://github.com/crowdin/crowdin-api-client-python) that automates the full localization pipeline — from uploading source files to downloading finished translations.
 
@@ -16,6 +16,16 @@ This project demonstrates how localization workflows can be automated using the 
 - Monitor translation progress across languages
 - Build and download translated assets automatically
 - Validate localization health in CI/CD
+
+---
+
+## Repository Sync
+
+The project is connected to Crowdin using the Crowdin GitHub integration.
+
+- Source changes are synchronized from GitHub to Crowdin.
+- Completed translations can be synchronized back to the repository.
+- API automation complements the repository sync for tasks such as translation progress monitoring and build/download workflows.
 
 ---
 
@@ -45,14 +55,6 @@ The GitHub Actions pipeline runs on every push and pull request:
 | ------------------- | ------------------------------------------------------- |
 | Lint                | Runs `ruff` to check code quality                       |
 | Localization health | Fails the build if any language is below 80% translated |
-
-To enable the pipeline, add these secrets to your GitHub repo:  
-**Settings → Secrets and variables → Actions**
-
-| Secret               | Value                   |
-| -------------------- | ----------------------- |
-| `CROWDIN_TOKEN`      | Your Crowdin API token  |
-| `CROWDIN_PROJECT_ID` | Your Crowdin project ID |
 
 ---
 

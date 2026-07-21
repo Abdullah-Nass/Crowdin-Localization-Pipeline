@@ -1,0 +1,3 @@
+files:
+  - source: /public/content/en
+    translation: /public/content/%two_letters_code%/%file_name%.%file_extension%

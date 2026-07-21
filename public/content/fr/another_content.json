@@ -1,0 +1,13 @@
+{
+  "home.title": "Bienvenue sur mon site web",
+  "home.subtitle": "Apprendre l'ingénierie de la localisation",
+  "menu.home": "Domicile",
+  "menu.about": "À propos de",
+  "menu.contact": "Contacter",
+  "auth.login": "Se connecter",
+  "auth.logout": "Déconnexion",
+  "profile.name": "Nom",
+  "profile.email": "Courriel",
+  "button.save": "Enregistrer les modifications",
+  "button.cancel": "Abandonner"
+}

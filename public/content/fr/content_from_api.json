@@ -1,7 +1,7 @@
 {
-  "welcome": "Welcome",
-  "login": "Log in",
-  "logout": "Log out",
-  "settings": "Settings",
-  "save": "Save changes"
+  "welcome": "Bienvenue",
+  "login": "Se connecter",
+  "logout": "Déconnexion",
+  "settings": "Réglages",
+  "save": "Enregistrer les modifications"
 }

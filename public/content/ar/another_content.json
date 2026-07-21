@@ -1,13 +1,13 @@
 {
-  "home.title": "Welcome to my website",
-  "home.subtitle": "Learn localization engineering",
-  "menu.home": "Home",
-  "menu.about": "About",
-  "menu.contact": "Contact",
-  "auth.login": "Log in",
-  "auth.logout": "Log out",
-  "profile.name": "Name",
-  "profile.email": "Email",
-  "button.save": "Save changes",
-  "button.cancel": "Cancel"
+  "home.title": "مرحبا بكم في موقعي",
+  "home.subtitle": "تعلم هندسة التعريب",
+  "menu.home": "المنزل",
+  "menu.about": "حول",
+  "menu.contact": "الاتصال",
+  "auth.login": "تسجيل الدخول",
+  "auth.logout": "تسجيل الخروج",
+  "profile.name": "الاسم",
+  "profile.email": "البريد الإلكتروني",
+  "button.save": "حفظ التغييرات",
+  "button.cancel": "إلغاء"
 }

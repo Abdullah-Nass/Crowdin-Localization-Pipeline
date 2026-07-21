@@ -1,0 +1,14 @@
+# Generated output
+/translations/
+translations.zip
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/

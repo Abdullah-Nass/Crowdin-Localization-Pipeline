@@ -34,6 +34,7 @@ jobs:
     env:
       TOKEN: ${{ secrets.CROWDIN_TOKEN }}
       PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+      PYTHONPATH: ${{ github.workspace }}
 
     steps:
       - name: Checkout code

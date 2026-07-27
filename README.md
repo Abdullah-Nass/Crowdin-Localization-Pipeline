@@ -1,4 +1,4 @@
-# Crowdin-Localization-Pipeline
+# Crowdin-API-Pipeline
 
 A Python wrapper around the [Crowdin Python SDK](https://github.com/crowdin/crowdin-api-client-python) that automates the full localization pipeline — from uploading source files to downloading finished translations.
 
